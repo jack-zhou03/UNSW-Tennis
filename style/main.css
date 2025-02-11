@@ -1,0 +1,1148 @@
+@charset "utf-8";
+/*	CSS Document
+*	
+*	Please see the margin for fonts and layout to maintain consistency
+*
+*	CSS for font and formating:
+*	#content h1, #content h2, #content h3, #content p, #content p, .red-txt,
+*	#footer p, a, a.link-teaser, .sm-txt, .list-bodycopy, .list-bodycopy-second,
+* 
+*	Use › or » for call to action button ie. .link-sm 
+*   
+* 	long-content:
+*	Maximum content width, ie. image: 730px
+*	with CSS; img-left, img-right : 710px, if problem in IE6 use 705px
+*
+*	Thomas Legowo UNSW Tennis Club 2011
+*/
+
+/* @Global CSS for body and container */
+body {
+	margin:0;
+	padding:0;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	background: #050505 url(/images/background.jpg) repeat-x 0 0;
+	width:100%;
+	height:100%
+}
+
+#container {
+	width: 964px; 
+	margin: 0 auto;
+}
+/* @end of body and container */
+
+/* @style for fonts, lists and links */
+div, p, form, h1, h2, h3, h4, h5, ul, ol, li, dl, dt, dd, blockquote, img {
+	margin: 0;
+	padding: 0;
+}
+
+#content h1 {
+	font-size: 21px;
+	color: #FF9900;
+	font-weight: normal;
+	margin: 25px 5px 15px 5px; /* IE6 fix */ 
+}
+
+html>body #content h1 {
+	margin: 15px 5px 15px 5px; /* for other browser */
+}
+
+#content h1 a:hover{
+	text-decoration: none;
+}
+
+#content h2 {
+	font-size: 13px;
+	color: #003399;
+	font-weight: bold;
+	margin: 14px 5px 0px 5px;  /* IE6 fix */
+	line-height: 18px;
+}
+
+html>body #content h2 {
+	margin: 10px 5px 0px 5px; /* for other browser */
+}
+
+#content h2 a:hover {
+	text-decoration: none;
+}
+
+#content h3 {
+	font-size: 13px;
+	color: #990000;
+	font-weight: normal;
+	margin: 13px 5px 2px 5px;  /* IE6 fix */
+}
+
+html>body #content h3 {
+	margin: 9px 5px 2px 5px; /* for other browser */
+}
+
+#content h3 a:hover{
+	text-decoration: none;
+}
+
+#content p {
+	font-size: 13px;
+	color: #666666;
+	margin: 10px 5px 5px 5px;
+	line-height: 19px;
+}
+
+#content .red-txt {
+	color: #990000;
+}
+
+.sm-txt {
+	font-size:10px;
+	text-decoration: none;
+}
+
+a.sm-txt:hover {
+	text-decoration: underline;
+}
+	
+#content ul {
+	list-style: disc;
+}
+
+.list-bodycopy li {
+	font-size: 12px;
+	color: #666666;
+	margin-left: 40px;
+	line-height: 18px;
+}
+
+.list-bodycopy-second li {
+	font-size: 12px;
+	color: #666666;
+	margin-left: 65px;
+	line-height: 18px;
+}
+
+#content .img-right {
+	margin: 0px 5px 5px 15px;
+	float: right;
+}
+
+#content .img-left {
+	margin: 0px 15px 5px 5px;
+	float: left;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hide {
+	display: none;
+}
+
+/* @group a-tag */
+a {
+	text-decoration: none;
+	color: #003399;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #6fbd01;
+}
+
+a.link-teaser {
+	color: #666666;
+}
+
+a.link-teaser:hover {
+	text-decoration: none;
+	color: #666666;
+}
+
+a.skip {
+	display: none;
+}
+
+a img {
+	border: none;
+}
+
+/* get rid of those system borders being generated for A tags */
+a, a:active, a:visited, input {
+	outline: none;
+}
+
+/*:focus {
+  -moz-outline-style:none;
+}*/
+/* @end of group a-tag */
+
+/* @group UL's */
+ul.listing,
+ul.horizontal {
+	float: left;
+	list-style: none;
+	
+}
+
+ul.listing {
+	padding: 10px 20px 10px 27px;
+}
+
+ul.horizontal li {
+	float: left;
+}
+/* @end or group UL's */
+
+/* @group icon */
+.icon img {
+	margin-left: 8px;
+}
+
+.icon img.icon-first {
+	margin-left: 0px;
+}
+
+.icon a:hover {
+	text-decoration: none;
+}
+/* @end of group icon */
+
+
+ 
+/* @group Buttons */
+
+.act-btn-container {
+	padding: 5px 10px;
+	padding-left: 30px;
+	
+}
+.act-btn-container ul li
+{
+	padding:0px;
+	margin:0px;
+	
+}
+
+/*===============enquire now =============================*/
+.act-btn-container ul li a.enquire-btn
+{
+width:128px;
+height:29px;
+color:#ff9901;
+padding-top:11px;
+padding-left:20px;
+display:block;
+background-image:url(/images/archives/enquire_btn_up.png);
+background-position:0px 5px;
+background-repeat:no-repeat;
+
+}
+.act-btn-container ul li a.enquire-btn:hover
+{
+background-image:url(/images/archives/enquire_btn_hover.png);
+}
+/*===============================Apply now =========================*/
+.act-btn-container ul li a.apply-online-btn
+{
+width:128px;
+height:29px;
+color:#ff9901;
+padding-top:6px;
+padding-left:20px;
+display:block;
+background-image:url(/images/archives/enquire_btn_up.png);
+background-position:0px 0px;
+background-repeat:no-repeat;
+
+}
+.act-btn-container ul li a.apply-online-btn:hover
+{
+background-image:url(/images/archives/enquire_btn_hover.png);
+}
+/*==========================end Apply Now============================*/
+
+
+.act-btn-container ul li a img /* This property is used to hide the image in HTML file. It will show the image if a browser does not support  css2. In this case image rollover will not work */
+{
+	display:none;
+}
+
+/*=========eng============*/
+
+.act-btn-container ul li a.eng
+{
+padding: 10px 0px;	
+width:128px;
+height:77px;
+display:block;
+background-image:url(/images/archives/eng_guide_btn_up.png);
+background-position:0px 10px;
+background-repeat:no-repeat;
+/*border: 1px solid #000;	*/
+}
+.act-btn-container ul li a.eng:hover
+{
+background-image:url(/images/archives/eng_guide_btn_hover.png);
+}
+
+/*==========chn===========*/
+.act-btn-container ul li a.chn
+{
+padding: 7px 0px;	
+width:128px;
+height:77px;
+display:block;
+background-image:url(/images/archives/chn_guide_btn_up.png);
+background-position:0px 7px;
+background-repeat:no-repeat;
+/*border: 1px solid #000;	*/
+}
+.act-btn-container ul li a.chn:hover
+{
+background-image:url(/images/archives/chn_guide_btn_hover.png);
+}
+
+/*==========handbook===========*/
+.act-btn-container ul li a.unsw
+{
+padding: 7px 0px 10px 0px;	
+width:128px;
+height:77px;
+display:block;
+background-image:url(/images/archives/handbook_up.png);
+background-position:0px 7px;
+background-repeat:no-repeat;
+/*border: 1px solid #000;	*/
+}
+.act-btn-container ul li a.unsw:hover
+{
+background-image:url(/images/archives/handbook_hover.png);
+}
+
+/*====@End group Buttons=======*/
+/*======= @NAVIGATION =======*/
+/* @Top Navigation FIRST */
+.top-nav-first {
+	width: 964px;
+	height:36px;
+	background: url(/images/top_nav_first_backg.png) repeat-x 0 0;
+}
+
+.top-nav-first ul.horizontal {
+	float: right;
+}
+
+.top-nav-first li{
+	padding: 0 0 0 1px;
+	background: url(/images/top_nav_first_divider.png) no-repeat 0 0;
+}
+
+.top-nav-first li a {
+	display: block;
+	padding: 0;
+	font-size: 13px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration:none;
+	outline: none;
+}
+
+.top-nav-first li a span {
+	display: block;
+	padding: 11px 10px 9px 10px; /* IE6 fix */
+}
+
+html>body .top-nav-first li a span {
+	padding: 11px 10px 10px 10px; /* for other browser */
+}
+
+.top-nav-first li a:hover {
+	background: #FFFF66 url(/images/top_nav_hover.png) repeat-x right 0;
+}
+
+.top-nav-first li a:active {
+	background: #FFFF66 url(/images/top_nav_active.png) repeat-x right 0;
+}
+
+.top-nav-first li.current a {
+	background: #FFFF66 url(/images/top_nav_down.png) repeat-x right 0;
+}
+
+.top-nav-first li a:hover span,
+.top-nav-first li a:active span,
+.top-nav-first li.current a span {
+	text-decoration: none;
+	color: #111111;
+	background-position: 0 0;
+}
+/* @END OF TOP NAV FIRST */
+
+/* @Top Navigation SECOND */
+.top-nav-second {
+	width:276px;
+	height:88px;
+}
+
+.top-nav-second ul.horizontal {
+	float: right;
+}
+
+.top-nav-second li a {
+	display:block;
+	margin: 50px 10px 0 0;
+	font-size: 11px;
+	text-decoration:none;
+	outline: none;
+}
+.top-nav-second li a span {
+	display:block;
+	padding: 11px 9px 9px 9px;
+}
+/* @END OF Top Navigation SECOND */
+/*======= @END OF NAVIGATION =======*/
+
+/* ======== @group SLIDESHOW ========= */
+#slideshow {
+	width:722px; /*759px of total width including left and right padding*/
+	padding: 10px 19px 10px 19px;
+	border-bottom: 1px solid #003399;
+	height: 240px;
+	overflow: hidden;
+	position: relative;
+}
+
+#slideshow img {
+	margin: 5px;
+	width: 712px;
+	height: 208px;
+}
+
+#slideshow #slideshowloader {
+	position: absolute;
+	top: 101px;
+	left: 340px;
+	background: url(/images/slideshow/loading.gif) no-repeat center center;
+	z-index: 6;
+	width: 32px;
+	height: 0;
+	padding: 32px 0 0 0;
+	display: block;
+	overflow: hidden;
+}
+
+
+#slideshow ul#imageviewer {
+	width: 712px;
+	height: 234px;
+	overflow: hidden;
+	z-index: 1;
+}
+
+#slideshow ul#imageviewer li {
+	width: 712px;
+	height: 234px;
+	position: absolute;
+	list-style: none;
+}
+
+#slideshow #controllers {
+	width: 712px;
+	height: 25px;
+	position: absolute;
+	top: 218px;
+	margin: 5px;	
+	z-index: 5;
+	background: url(/images/slideshow/background-controllers.png) repeat-x;
+}
+
+
+#slideshow #controllers ul {
+	list-style: none;
+	float: left;
+	position: absolute;
+	left: 228px;
+	top: 1px;
+}
+
+
+#slideshow #controllers ul li {
+	float: left;
+	padding: 0 2px;
+	text-align: center;
+	font-size: 11px;
+}
+
+#slideshow #controllers ul li a {
+	width: 25px;
+	display: block;
+	height: 17px;	
+	padding-top: 4px;
+	overflow: hidden;
+	color: #002b54;	
+	background: url(/images/sprites-control.png) no-repeat -70px 0;
+}
+
+#slideshow #controllers ul li a:hover,
+#slideshow #controllers ul li a.active {
+	text-decoration: none;
+	color: #f25a31;
+	background-position: -45px 0;
+}
+
+
+#slideshow #controllers a#previous,
+#slideshow #controllers a#next,
+#slideshow #controllers a#control {
+	height: 0;
+	width: 11px;
+	padding: 13px 0 0 0;
+	display: block;
+	overflow: hidden;
+	background-image: url(/images/sprites-control.png);
+	background-repeat: no-repeat; 
+}
+
+
+#slideshow #controllers #previous {
+	position: absolute;
+	left: 150px;
+	top: 5px;
+	background-position: -21px 0;
+}
+
+#slideshow #controllers #next {
+	position: absolute;
+	left: 200px;
+	top: 5px;
+	background-position: -34px 0;
+}
+
+#slideshow #controllers #control {
+	position: absolute;
+	left: 175px;
+	top: 5px;
+}
+
+#slideshow #controllers .play {
+	background-position: 0 0;
+}
+
+#slideshow #controllers .pause {
+	background-position: -10px 0;
+}
+/* ======== END OF @group SLIDESHOW ========= */
+
+/*========== @CSS for LAYOUT ==========*/
+#header {
+	width: 964px;
+	height: 124px;
+	background: #FFF url(/images/top_header_backg.png) repeat-x 0 0;
+}
+
+.UNSW-Global-logo {
+	width:204px;
+	height:88px;
+	/*background-image:url(../images/UNSW_Global_logo.png);*/
+}
+
+.UFS-banner {
+	width:688px;
+	height:88px;
+}
+
+#content {
+	float: left;
+	width: 964px;
+	background: #fff;
+	position: relative;
+}
+
+
+#content .main {
+	width: 760px;
+	height: 600px;
+	border-left: 1px solid #EEEEEE;
+}
+
+html>body #content .main {
+	height: auto;
+	min-height: 600px; /* for other browser */
+}
+
+.half-content {
+	width:700px; /*if problem use 349px instead of 350px to make up 759px in total width including left and right padding*/
+	padding: 10px 15px 10px 15px;
+}
+
+/* =========@INTERNAL CONTENT========= */
+.breadcrumbs {
+	width:730px;
+	padding: 12px 15px 3px 15px;
+	background: #f6f6f6;
+	border: none;
+	font-size: 10px;
+	color: #444444;
+}
+
+.long-content {
+	width:730px;
+	padding: 10px 15px 10px 15px;
+}
+
+.long-content.main-longcont {
+	border-bottom: 1px solid #FF9900;
+}
+
+.long-content.sub-longcont {
+	border-bottom: 1px solid #FF3C00;
+}
+
+.long-content.last-longcont {
+	border-bottom: none;
+}
+/* =========@END OF INTERNAL CONTENT========= */
+
+/* @group details */
+.details {
+	padding: 8px 0;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.details.lastdetail {
+	border: none;
+}
+
+.details  div.quote {
+	width: 168px;
+	height: 119px;
+	padding: 20px 10px;
+	background:url(/images/quote.png) repeat-x 0 0;
+}
+/* @ END OF group details */
+
+
+/* @SIDEBARS*/
+#content .sidebar {
+	width: 203px;
+	position:absolute;
+	top:0px;
+}
+
+.sidebar .title-sidebar {
+	padding: 13px 0 0 20px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666666;
+}
+
+.sidebar .title-sidebar a:hover {
+	text-decoration: none;
+}
+
+.sidebar ul.subnav-sidebar {
+	padding: 0px 20px 3px 15px; /* IE6 fix*/
+}
+
+html>body .sidebar ul.subnav-sidebar {
+	padding: 0px 20px 11px 15px; /* for other browser */
+}
+
+.sidebar li {
+	padding: 5px 0;
+	font-size:13px;
+	list-style: none;
+	color: #666666;
+}
+
+.sidebar li a:hover{
+	text-decoration:none;
+	color: #6fbd01;
+	
+}
+
+.sidebar-content {
+	width: 203px;
+	float:left;
+}
+
+.sidebar-content.firstbar {
+	border-bottom: 1px solid #FF9900;
+	
+}
+
+.sidebar-content.secondbar {
+	border-bottom: 1px solid #FF3C00;
+}
+
+.sidebar-content.lastbar {
+	border: none;
+}
+
+.sidebar-content.slide-control {
+	width: 158px;
+	height: 38px;
+	padding: 7px 0 0 45px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #003399;
+	background: url(/images/sidebar-slide-control-down.png) no-repeat;
+}
+
+/*==============changing languages drop down to static 
+
+.arrow-down {
+	
+}
+
+.arrow-up {
+	background: url(../images/sidebar-slide-control-up.png) no-repeat;
+}
+*/
+
+.act-btn-container ul li a.arabic
+{
+padding: 5px 0px;	
+width:136px;
+height:37px;
+display:block;
+background-image:url(/images/flags/saudiarabia_up.gif);
+background-position:0px 100%;
+background-repeat:no-repeat;
+
+}
+.act-btn-container ul li a.arabic:hover
+{
+background-image:url(/images/flags/saudiarabia_hover.gif);
+}
+
+.act-btn-container ul li a.japanese
+{
+padding: 0px 0px;	
+width:136px;
+height:37px;
+display:block;
+background-image:url(/images/flags/japan_up.gif);
+background-position:0px 0px;
+background-repeat:no-repeat;
+
+}
+.act-btn-container ul li a.japanese:hover
+{
+background-image:url(/images/flags/japan_hover.gif);
+}
+.act-btn-container ul li a.korean
+{
+padding: 0px 0px;	
+width:136px;
+height:37px;
+display:block;
+background-image:url(/images/flags/korean_up.gif);
+background-position:0px 0px;
+background-repeat:no-repeat;
+
+}
+.act-btn-container ul li a.korean:hover
+{
+background-image:url(/images/flags/korean_hover.gif);
+}
+.act-btn-container ul li a.russian
+{
+padding: 0px 0px;	
+width:136px;
+height:37px;
+display:block;
+background-image:url(/images/flags/russia_up.gif);
+background-position:0px 0px;
+background-repeat:no-repeat;
+
+}
+.act-btn-container ul li a.russian:hover
+{
+background-image:url(/images/flags/russia_hover.gif);
+}
+
+.slide-control:hover {
+	text-decoration: none;
+}
+
+.slide-content {
+	display: block;
+}
+
+.header{
+	margin-left: 20px;
+}
+/* @END OF SIDEBARS */
+
+/* @TABLE */
+table {
+	border-right: 1px solid #EEEEEE;
+	border-left: 1px solid #EEEEEE;
+	border-top: 1px solid #EEEEEE;
+	border-collapse: collapse; /* border-spacing isn't supported by IE6 */
+}
+
+td, th {
+	border-bottom: 1px solid #EEEEEE;
+	text-align: left;
+	padding: 6px 6px 6px 6px;
+}
+
+td {
+	vertical-align: top;
+	font-size: 13px;
+	color: #666666;
+}
+
+th {
+	vertical-align: middle;
+}
+
+th a:hover {
+	text-decoration: none;
+}
+
+table .blue-bg {
+	background-color: #D5E1FF;
+}
+
+table .grey-bg {
+	background-color: #F2F2F2;
+}	
+/* END OF @TABLE */
+
+/*========= @TABS - Stream of Study =========*/
+#streams-study-container {
+	width:730px;
+	height: 240px;
+	padding: 10px 15px 10px 15px;
+	border-top: 1px solid #ff3c00;
+}
+
+/* root element for tabs  */
+ul.tabs { 
+	margin: 10px 0px 0px 5px !important;
+	padding: 0;
+	/*width: 715px;*/ 
+}
+
+/* single tab */
+ul.tabs li {
+	text-indent: -9999px;
+	padding:0;
+	margin:0 !important;
+	list-style:none; 
+}
+
+/* link inside the tab. uses a background image */
+ul.tabs a { 
+	background: url(/images/sprites-tabs.jpg) no-repeat 0 0;
+	display:block;
+	height: 47px;
+	width: 143px;
+	text-decoration:none;
+	padding:0px;
+	margin:0px;	
+	position:relative;
+}
+
+/*Different Tabs properties for different section*/
+/* streams-study */
+ul.tabs a.streams-study-tab	{ background-position: 0 0; }
+ul.tabs a.streams-study-tab:hover	{ background-position: 0 -96px; }
+html>body ul.tabs a.streams-study-tab.current	{ background-position: 0 -48px; }
+
+/* sciences */
+ul.tabs a.sciences-tab	{ background-position: -143px -0; }
+ul.tabs a.sciences-tab:hover	{ background-position: -143px -96px; }
+html>body ul.tabs a.sciences-tab.current	{ background-position: -143px -48px; }
+
+
+/* commerce */
+ul.tabs a.commerce-tab	{ background-position:  -286px -0; }
+ul.tabs a.commerce-tab:hover	{ background-position: -286px -96px; }
+html>body ul.tabs a.commerce-tab.current	{ background-position: -286px -48px; }
+
+/* arts */
+ul.tabs a.arts-tab	{ background-position: -429px -0; }
+ul.tabs a.arts-tab:hover	{ background-position: -429px -96px; }
+html>body ul.tabs a.arts-tab.current	{ background-position: -429px -48px; }
+
+/* design-building */
+ul.tabs a.design-building-tab	{ background-position: -572px 0 }
+ul.tabs a.design-building-tab:hover	{ background-position: -572px -96px; }
+html>body ul.tabs a.design-building-tab.current	{ background-position: -572px -48px; }
+
+/* panes - bodycopy */
+/* initially all panes are hidden */ 
+.panes {
+	position:relative;	
+}
+
+.panes div {
+	display:none;
+	background: url(/images/sprites-tabs.jpg) no-repeat  0 -144px;
+	width: 676px; /* total width including margin and padding: 716px */
+	height: 121px;
+	margin: 0 0 0 5px;	
+	position: absolute; /* absolute position to accomodate fading effect */
+	top: 57px;
+	left: -720px; /* IE6 fix */
+}
+
+html>body .panes div {
+	left: 0px;
+}
+
+#streams-study-pane {
+	background-position: 0 -144px;
+	padding: 15px 225px 15px 20px;
+	width: 471px;
+}
+
+#sciences-pane {
+	background-position: 0 -296px;
+	padding: 15px 20px 15px 250px;
+	width: 446px;
+}
+
+#commerce-pane { 
+	background-position: 0 -448px;
+	padding: 15px 225px 15px 20px;
+	width: 471px;
+}
+
+#arts-pane { 
+	background-position: 0 -600px;
+	padding: 15px 225px 15px 20px;
+	width: 471px;
+}
+
+#design-building-pane {
+	background-position: 0 -752px;
+	padding: 15px 20px 15px 300px;
+	width: 396px;
+}
+
+/*========= END OF @TABS =========*/
+
+/* @FOOTER */
+#footer {
+	width:964px;
+	background: #FFF;
+	padding: 0px;
+	font-size: 10px;
+}
+
+#footer a {
+	color: #444444;	
+}
+
+#footer a:hover {
+	color: #6fbd01;
+	text-decoration:none;	
+}
+
+#footer p {
+	color: #CCCCCC;
+	clear: both; /* fix IE6 problem 3px jog */
+	margin: 0 20px 10px 20px; /* IE 6 fix */
+}
+
+html>body #footer p {
+	margin: 10px 20px; /* for other browser */
+}
+	
+
+#footer .navigation {
+	float:left;
+	width: 954px;
+	padding: 8px 5px;
+	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	margin-bottom: 10px;
+	background-color:#FFF;
+}
+
+#footer ul li {
+	padding: 0 15px;
+}
+
+/*===============validation links==============*/
+#validation
+{
+	float:right;
+	width:125px;
+	position:relative;
+	margin-right:5px;
+		
+}
+#validation img  /* it will hide the image. If a browser does not support css2, it will display this image.*/
+{
+	display:none;
+}
+
+#validation #xhtml
+{
+	float:left;
+}
+
+#validation #xhtml a
+{
+	width:60px;
+	height:17px;
+	display:block;
+	background-image:url(/images/valid-xhtml_1.gif);
+}
+#validation #xhtml a:hover
+{
+	background-image: url(/images/valid-xhtml_2.gif);
+}
+
+
+#validation #css
+{
+	float:right;
+	width:60px;
+	height:17px;
+}
+#validation #css a
+{
+	width:60px;
+	height:17px;
+	display:block;
+	background-image:url(/images/valid-css_1.gif);
+}
+#validation #css a:hover
+{
+	background-image: url(/images/valid-css_2.gif);
+}
+
+
+/* @END OF FOOTER */
+
+/*========== @END OF CSS for LAYOUT ==========*/
+
+/*========== CSS FOR STREAM STUDY TABLE==========*/
+#stream-study-table .info{
+    position:relative;
+    z-index:24; background-color:#ccc;
+    color:#00f;
+    text-decoration:none}
+
+#stream-study-table .info:hover{z-index:25; background-color:#ffdd80;}
+
+#stream-study-table .info span{display: none}
+
+#stream-study-table .info:hover span{
+    display:block;
+    position:absolute;
+    top:2em; left:2em; width:50em;
+    border:5px solid #ccc;
+    background-color:#ffffff; color:#000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left
+}
+
+p.bullet {
+	text-align: center !important;
+	font-size: 2em !important; 
+}
+
+#stream-study-table h1 {
+	text-align: center !important;
+	color: #FFF !important;
+	font-size: 13px !important;
+	margin: 10px 5px 5px 5px !important;
+	line-height: 19px !important;
+	font-weight: bold !important;
+}
+
+#stream-study-table td, th {
+	border-bottom: 1px solid #EEEEEE;
+	text-align: left;
+	padding: 0;
+}
+/*============@Currency Converter=====================*/
+
+#currency
+{
+display:none;  
+top:36%;
+left:40%;
+position:absolute; /* hack for internet explorer 6*/  
+height:310px;  
+width:300px;  
+background:#FFFFFF;  
+border:2px solid #cecece;  
+z-index:2;  
+padding:12px;  
+font-size:13px;  
+}
+
+html > body #currency
+{
+position:fixed;	
+}
+
+#currency h2
+{
+text-align:left;  
+color:#6FA5FD;  
+font-size:22px;  
+font-weight:700;  
+border-bottom:1px dotted #D3D3D3;  
+padding-bottom:2px;  
+margin-bottom:20px; 
+}
+#currency a#popupContactClose{  
+font-size:14px;  
+line-height:14px;  
+right:6px;  
+top:4px;  
+position:absolute;  
+color:#6fa5fd;  
+font-weight:700;  
+display:block;  
+cursor:pointer;
+}  
+#backgroundPopup{  
+display:none;  
+position:absolute; /* hack for internet explorer 6*/  
+height:100%;  
+width:100%;  
+top:0;  
+left:0;  
+background:#000000;  
+border:1px solid #cecece;  
+z-index:1;  
+}
+
+html > body #backgroundPopup{
+	position:fixed;  
+}
+
+#btn
+{
+	cursor:pointer;
+}
+
+#cont {
+    display: table;
+    }
+
+#row  {
+    display: table-row;
+    }
+
+#left, #right, #middle {
+    display: table-cell;
+	margin: 15px 15px 15px 15px;
+    }

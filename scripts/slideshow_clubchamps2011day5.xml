@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AlbumBook ver='1.6' title='ClubChamps2011Day5' description='ClubChamps2011Day5' firstAlbum='0' width='960' height='720' showThumbnails='true' thumbWidth='80' thumbHeight='60' autoStart='false' allowClick='false' clickAction='_blank' playerName='Player - Black (Flash Plugin not required)'>
+	<Album title='ClubChamps2011Day5' description='' path='/images/ClubChamps2011Day5' hasThumb='false' thumbSrc='' hasBg='false' bgSrc='' bgScale='0' interval='5' useTransition='true' transType='Fade' transTime='2' firstImage='1' dispSequence='0'>
+		<Slide src='p1050642.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050644.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050645.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050648.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050649.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050656.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050659.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050663.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050666.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050668.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050669.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050675.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050678.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050680.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050684.jpg' caption='' width='960' height='541' thumbWidth='80' thumbHeight='45'/>
+		<Slide src='p1050695.jpg' caption='' width='960' height='541' thumbWidth='80' thumbHeight='45'/>
+		<Slide src='p1050707.jpg' caption='' width='960' height='541' thumbWidth='80' thumbHeight='45'/>
+		<Slide src='p1050714.jpg' caption='' width='960' height='541' thumbWidth='80' thumbHeight='45'/>
+		<Slide src='p1050725.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050737.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050738.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050744.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050747.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050753.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050754.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050755.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050756.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050761.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050762.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050764.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050766.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050770.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050773.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050775.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050778.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+	</Album>
+</AlbumBook>
