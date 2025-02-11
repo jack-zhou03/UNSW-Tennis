@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AlbumBook ver='1.6' title='ClubChamps2011Day4' description='ClubChamps2011Day4' firstAlbum='0' width='960' height='720' showThumbnails='true' thumbWidth='80' thumbHeight='60' autoStart='false' allowClick='false' clickAction='_blank' playerName='Player - Black (Flash Plugin not required)'>
+	<Album title='ClubChamps2011Day4' description='' path='/images/ClubChamps2011Day4' hasThumb='false' thumbSrc='' hasBg='false' bgSrc='' bgScale='0' interval='5' useTransition='true' transType='Fade' transTime='2' firstImage='1' dispSequence='0'>
+		<Slide src='p1050353.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050361.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050374.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050381.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050384.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050391.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050409.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050427.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050430.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050433.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050439.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050487.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050492.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050506.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050508.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050512.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050515.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050517.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050521.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050524.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050539.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050540.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050543.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050544.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050546.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050554.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050570.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050573.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050576.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050578.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050579.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050584.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050585.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050595.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050611.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050617.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050620.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='p1050623.jpg' caption='' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+	</Album>
+</AlbumBook>

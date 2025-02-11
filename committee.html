@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>UNSW Tennis Club</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="COPYRIGHT" content="Copyright (c) 2010 by UNSW Tennis Club" />
+<meta name="KEYWORDS" content="Australia, New South Wales, Sydney, University of New South Wales, UNSW, Sports Association, Tennis, Tennis Club, Newsletters, Tennis Links, UNSW Tennis Club, courts, rackets, ESTC" />
+<meta name="DESCRIPTION" content="UNSW Tennis Club Website is the official website of the Tennis Club of The University of New South Wales, Sydney, Australia." />
+<link href="/style/main.css" rel="stylesheet" type="text/css" />
+<script src="/scripts/include_html.js" type="text/javascript"></script>
+<script type="text/javascript" src="/scripts/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/scripts/header.js"></script>
+<style type="text/css">
+img .group-photo{
+	float:left;
+	margin: 8px;
+}
+</style>
+<!-- Activates those TABS -->
+
+<script type="text/javascript">
+
+	// perform JavaScript after the document is scriptable.
+
+	$(function() {
+
+		// setup ul.tabs to work as tabs for each div directly under div.panes
+
+		$("ul.tabs").tabs("div.panes > div", {effect: 'fade', fadeOutSpeed: 500});
+
+	});
+</script>
+
+</head>
+
+<body onload="clientSideInclude('navigation', '/components/navigation.html');clientSideInclude('sidebar', '/components/sidebar.html');clientSideInclude('footer', '/components/footer.html');" >
+<div id="container">
+
+	<!--Header, Top Part Banner, Top Part Navigation -->
+
+		<span id="navigation"></span>
+
+	<!--END OF HEADER-->
+
+
+
+ <!--CONTENTs-->
+
+  	
+  <div id="content" class="left"> 
+    <!--content.main-->
+    <div class="main right"> 
+      <div class="half-content left"> 
+        <h2>Our Committee Members</h2>
+        <p align="justify">President - Austin Han<br/>
+        Secretary - Orange Yeung<br/>
+        Treasurer - Michael Ho<br/>
+        Arc Delegate - Marvin Yu<br/>
+        Website Manager - Andrey Hariyono<br/>
+        WHS Officer and Beginner's Course Coordinator - Han Tay<br/>
+        </p>
+        <!--p align="justify"> President — <b>Marvin Yudo</b><br/>
+          <img class="group-photo" src="/images/committee/Marvin.jpg" border="0" alt="Marvin Yudo"/>
+          <br/>
+          Vice President — <b>John Tran</b><br/>
+          <img class="group-photo" src="/images/committee/Marvin.jpg" border="0" alt="Marvin Yudo"/>
+          <br/>
+           Secretary and Social Tennis In Charge — <b>Orange Chi-ching Yeung</b><br/>
+          <img class="group-photo" src="/images/committee/Orange.jpg" border="0" alt="Orange Chi-ching Yeung"/>
+          <br/>
+          
+          Web Producer, Saturday Social Tennis In Charge — <b>Andrey Hariyono</b><br/>
+          <img class="group-photo" src="/images/committee/Andrey.jpg" border="0" alt="Andrey Hariyono"/>
+          <br/>
+          University Team Manager — <b>John McQueen</b><br/>
+          <img class="group-photo" src="/images/committee/John.jpg" border="0" alt="John McQueen"/>
+          <br/>
+         
+          Club Champs/Ladder Competition Director — <b>Michael Ho</b><br/>
+          <img class="group-photo" src="/images/committee/Michael.jpg" border="0" alt="Michael Ho"/>
+          <br />
+        </p-->
+      </div>
+    </div>
+    <!--END OF content.main-->
+    <!--content.sidebar-->
+    <span id="sidebar"></span> 
+    <!--END OF content.sidebar-->
+  </div>
+
+    <!--END OF ALL CONTENTs-->
+
+     
+
+	<!--FOOTER-->
+
+		<span id="footer"></span>
+    
+	<!--END OF FOOTER-->
+
+</div>
+
+</body>
+
+</html>

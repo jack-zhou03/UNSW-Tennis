@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AlbumBook ver='1.6' title='ClubChamps 2011 Champions and Runner Ups' description='ClubChamps 2011 Champions and Runner Ups' firstAlbum='0' width='960' height='720' showThumbnails='true' thumbWidth='80' thumbHeight='60' autoStart='false' allowClick='false' clickAction='_blank' playerName='Player - Black (Flash Plugin not required)'>
+	<Album title='ClubChamps 2011 Champions and Runner Ups' description='' path='/images/ClubChamps2011Champions' hasThumb='false' thumbSrc='' hasBg='false' bgSrc='' bgScale='0' interval='5' useTransition='true' transType='Fade' transTime='2' firstImage='1' dispSequence='0'>
+		<Slide src='5.jpg' caption='Mixed Doubles Runner Ups %2D Michael Lee and Melissa Duell' width='929' height='720' thumbWidth='77' thumbHeight='60'/>
+		<Slide src='1.jpg' caption='Mixed Doubles Champions %2D Mike Etherington and Therese Taylor' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='2.jpg' caption='Men%27s Doubles Runner Ups %2D Eric Valric and Chris Vik' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='3.jpg' caption='Men%27s Doubles Champions %2D Michael Siyaguna and Kelvin Mak' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='6.jpg' caption='Men%27s Open Singles Runner Up %2D Mike Etherington' width='943' height='720' thumbWidth='79' thumbHeight='60'/>
+		<Slide src='4.jpg' caption='Men%27s Open Singles Champion %2D Michael Siyaguna' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='7.jpg' caption='Men%27s Grade B Singles Runners Up %2D Marvin Yudo and Champion %2D Oliver Hough' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+		<Slide src='8.jpg' caption='Men%27s Grade B Singles Runner Up %2D Marvin Yudo and Champion %2D Oliver Hough' width='960' height='720' thumbWidth='80' thumbHeight='60'/>
+	</Album>
+</AlbumBook>
